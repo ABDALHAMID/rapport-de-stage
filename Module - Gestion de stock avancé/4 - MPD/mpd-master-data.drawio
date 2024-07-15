@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2024-06-14T17:27:31.492Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="OCBTIL-Gio1PPseBa7ct" version="24.5.4" type="device">
+  <diagram id="eO6N8mCC7lybv8nZ13hw" name="Page-1">
+    <mxGraphModel dx="670" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gSyMNQs-4MSieAturk_d-1" value="Utilisateur" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="140" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-2" value="#Matricule&lt;div&gt;Login&lt;/div&gt;&lt;div&gt;#IdentifiantOrganisation&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="gSyMNQs-4MSieAturk_d-1" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-3" value="organisation" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="150" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-4" value="#Identifiantorganisation&lt;br&gt;organisation" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="gSyMNQs-4MSieAturk_d-3" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="gSyMNQs-4MSieAturk_d-5" target="gSyMNQs-4MSieAturk_d-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-5" value="Entreprise" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="500" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-6" value="#Produit&lt;div&gt;#IdentifiantOrganisation&lt;/div&gt;&lt;div&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="gSyMNQs-4MSieAturk_d-5" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gSyMNQs-4MSieAturk_d-4" target="gSyMNQs-4MSieAturk_d-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gSyMNQs-4MSieAturk_d-4" target="gSyMNQs-4MSieAturk_d-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-9" value="Utilisateur-Entreprise" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="480" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-10" value="#Matricule&lt;div&gt;#IdentifientOrganisation&lt;/div&gt;&lt;div&gt;#Entreprise&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="gSyMNQs-4MSieAturk_d-9" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gSyMNQs-4MSieAturk_d-2" target="gSyMNQs-4MSieAturk_d-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gSyMNQs-4MSieAturk_d-6" target="gSyMNQs-4MSieAturk_d-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-14" value="Article" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="150" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-15" value="#IdentifiantArtic&lt;span style=&quot;background-color: initial;&quot;&gt;le&lt;/span&gt;&lt;div&gt;Article&lt;br&gt;&lt;div&gt;&lt;div&gt;NomRecherche&lt;/div&gt;&lt;div&gt;#IdentifiantOrganisation&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="gSyMNQs-4MSieAturk_d-14" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="gSyMNQs-4MSieAturk_d-4" target="gSyMNQs-4MSieAturk_d-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-22" value="ReleseArticle" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="500" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-23" value="#IdentifiantArticle&lt;div&gt;#IdentifiantOrganisation&lt;/div&gt;&lt;div&gt;#Entreprise&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="gSyMNQs-4MSieAturk_d-22" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gSyMNQs-4MSieAturk_d-15" target="gSyMNQs-4MSieAturk_d-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="gSyMNQs-4MSieAturk_d-6" target="gSyMNQs-4MSieAturk_d-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gSyMNQs-4MSieAturk_d-26" target="gSyMNQs-4MSieAturk_d-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-26" value="Produits" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-27" value="#Produit&lt;br&gt;#IdentifiantOrganisation" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="gSyMNQs-4MSieAturk_d-26" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-28" value="ReleaseProduit" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="410" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-29" value="&lt;span style=&quot;text-wrap: wrap;&quot;&gt;#Product&lt;/span&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;#IdentifiantOrganisation&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;#Entreprise&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="gSyMNQs-4MSieAturk_d-28" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gSyMNQs-4MSieAturk_d-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="gSyMNQs-4MSieAturk_d-4" target="gSyMNQs-4MSieAturk_d-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
