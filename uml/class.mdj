@@ -1,0 +1,137 @@
+{
+    "Project": {
+        "ownedElements": [
+            {
+                "_type": "UMLClass",
+                "_id": "InventoryTransactionOrigine",
+                "name": "inventorytransactionorigine",
+                "attributes": [
+                    { "name": "id", "type": "PK" },
+                    { "name": "code", "type": "String" },
+                    { "name": "description", "type": "String" },
+                    { "name": "inventorytransactionorigintypeid", "type": "Integer" }
+                ]
+            },
+            {
+                "_type": "UMLClass",
+                "_id": "InventoryTransactionOrigineType",
+                "name": "inventorytransactionorigintype",
+                "attributes": [
+                    { "name": "id", "type": "PK" },
+                    { "name": "code", "type": "String" },
+                    { "name": "description", "type": "String" },
+                    { "name": "values", "type": "String", "value": "Commande Fournisseur, Commande vente, journal de transfer" }
+                ]
+            },
+            {
+                "_type": "UMLClass",
+                "_id": "ItemsReleased",
+                "name": "itemsreleased",
+                "attributes": [
+                    { "name": "id", "type": "PK" },
+                    { "name": "code", "type": "String" },
+                    { "name": "description", "type": "String" }
+                ]
+            },
+            {
+                "_type": "UMLClass",
+                "_id": "Currency",
+                "name": "currency",
+                "attributes": [
+                    { "name": "id", "type": "PK" },
+                    { "name": "code", "type": "String" },
+                    { "name": "description", "type": "String" }
+                ]
+            },
+            {
+                "_type": "UMLClass",
+                "_id": "InventoryTransaction",
+                "name": "inventorytransaction",
+                "attributes": [
+                    { "name": "id", "type": "PK" },
+                    { "name": "code", "type": "String" },
+                    { "name": "description", "type": "String" },
+                    { "name": "inventorytransactionorigineid", "type": "Integer" },
+                    { "name": "inventorytransactionstatusoutputid", "type": "Integer" },
+                    { "name": "inventorytransactionstatusinputid", "type": "Integer" },
+                    { "name": "inventorydimensionid", "type": "Integer" },
+                    { "name": "itemsreleasedid", "type": "Integer" },
+                    { "name": "currencyid", "type": "Integer" }
+                ]
+            },
+            {
+                "_type": "UMLClass",
+                "_id": "InventoryDimension",
+                "name": "inventorydimension",
+                "attributes": [
+                    { "name": "id", "type": "PK" },
+                    { "name": "code", "type": "String" },
+                    { "name": "description", "type": "String" },
+                    { "name": "values", "type": "String", "value": "Vendu, Achete, Commande, Physique, reserve" }
+                ]
+            },
+            {
+                "_type": "UMLClass",
+                "_id": "InventoryTransactionStatusOutput",
+                "name": "inventorytransactionstatusoutput",
+                "attributes": [
+                    { "name": "id", "type": "PK" },
+                    { "name": "code", "type": "String" },
+                    { "name": "description", "type": "String" },
+                    { "name": "values", "type": "String", "value": "Achete, Recu, Commande" }
+                ]
+            },
+            {
+                "_type": "UMLClass",
+                "_id": "InventoryTransactionStatusInput",
+                "name": "inventorytransactionstatusinput",
+                "attributes": [
+                    { "name": "id", "type": "PK" },
+                    { "name": "code", "type": "String" },
+                    { "name": "description", "type": "String" }
+                ]
+            },
+            {
+                "_type": "UMLClass",
+                "_id": "InventoryTransferLine",
+                "name": "inventorytransferline",
+                "attributes": [
+                    { "name": "id", "type": "PK" },
+                    { "name": "code", "type": "String" },
+                    { "name": "description", "type": "String" },
+                    { "name": "inventorytransferid", "type": "Integer" },
+                    { "name": "inventorytransferjournalid", "type": "Integer" },
+                    { "name": "inventorytransferjournalstatusid", "type": "Integer" },
+                    { "name": "inventorytransferstatusid", "type": "Integer" },
+                    { "name": "inventorytransferjournaltypeid", "type": "Integer" }
+                ]
+            },
+            {
+                "_type": "UMLClass",
+                "_id": "InventoryTransfer",
+                "name": "inventorytransfer",
+                "attributes": [
+                    { "name": "id", "type": "PK" },
+                    { "name": "code", "type": "String" },
+                    { "name": "description", "type": "String" },
+                    { "name": "inventorytransferstatusid", "type": "Integer" },
+                    { "name": "inventorytransferjournalid", "type": "Integer" },
+                    { "name": "inventorytransferjournalstatusid", "type": "Integer" },
+                    { "name": "inventorytransferjournaltypeid", "type": "Integer" }
+                ]
+            },
+            {
+                "_type": "UMLClass",
+                "_id": "InventoryTransferJournal",
+                "name": "inventorytransferjournal",
+                "attributes": [
+                    { "name": "id", "type": "PK" },
+                    { "name": "code", "type": "String" },
+                    { "name": "description", "type": "String" },
+                    { "name": "inventorytransferjournalstatusid", "type": "Integer" },
+                    { "name": "inventorytransferjournaltypeid", "type": "Integer" },
+                    { "name": "receivingjournallineid", "type": "Integer" }
+                ]
+            },
+            {
+                "_type": "UMLClass",
